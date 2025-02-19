@@ -1,0 +1,125 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #444;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.url-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#urlInput {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+#addUrl,
+#startScan,
+#importUrlsBtn,
+#exportUrlsBtn,
+#stopScan,
+#downloadJsonBtn,
+#downloadCsvBtn {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#stopScan {
+  background-color: #f44336;
+}
+
+#urlTags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.url-tag {
+  background-color: #eee;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.url-tag-remove {
+  margin-left: 5px;
+  cursor: pointer;
+  color: #999;
+}
+
+#wordlistSelect {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#customWordlist {
+  width: 98%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.terminal {
+  background-color: #000;
+  color: #0f0;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+#resultsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#resultsTable th,
+#resultsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#resultsTable th {
+  background-color: #f2f2f2;
+}
+
+.download-buttons {
+  margin-top: 10px;
+}
