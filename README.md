@@ -10,7 +10,7 @@
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/terminalDZ/feroxbuster-web-ui.git  # Replace with your repository URL if different
+    git clone https://github.com/terminalDZ/feroxbuster-web-ui.git
     cd feroxbuster-web-ui
     ```
 
